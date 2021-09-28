@@ -1,0 +1,1119 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    text-decoration: none;
+}
+
+
+.inicio{
+    width: 100%;
+    height: 854px;
+    background-image: url(/imagen/87.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.navegacion{
+    width: 100%;
+    height: 200px;
+    display:flex;
+    
+    flex-wrap: wrap;
+    
+    justify-content:space-around;
+
+    text-decoration: none;
+    
+}.nav{
+    margin-top: 60px;
+    
+}
+
+
+.nav li{
+    font-size: 100%;;
+    list-style: none;
+
+    margin:20px 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inherit;
+    color: white;
+    font-weight: 900;
+    padding: 10px;
+
+    text-shadow: -1px 3px 5px #000;
+    text-decoration: none;
+}
+
+.li{
+    text-decoration: none;
+}
+
+.li img{
+    position:absolute;
+    width: 50px;
+    left: 30px;
+    top: 30px;
+}
+
+.nav li:hover{
+    border: solid 1px white;
+    border-radius: 100px;
+
+    color: tomato;
+}
+
+
+.lenguas{
+    width: 100%;
+    height: 500px;
+
+    display: flex;
+
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content:space-between;
+
+    font-family:serif;
+}
+
+.programador{
+    font-size: 50pt;
+    margin-left: 160px;
+
+    font-weight:bold;
+    font-family:serif;
+    position: relative;
+
+    background: -webkit-linear-gradient(#ff0000, #5686fd );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.p-programador{
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+
+.tecnico{
+    font-size: 50pt;
+    margin-left: 160px;
+
+    font-weight: bold;
+    animation-name: anime;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    position: relative;
+    font-family:serif;
+    
+    background: -webkit-linear-gradient(#ff0000, #5686fd );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.p-tecnico{
+    font-size: 20px;
+    color: black;
+    margin-top :30px ;
+}
+
+.redes{
+    
+    display: flex;
+
+    flex-direction: column;
+
+    position: absolute;
+    left: 1640px;
+
+}
+
+.redes img{
+    width: 50px;
+    margin-top: 60px;
+
+    border-radius: 50%;
+}
+
+/* 1024 */
+
+@media screen and (max-width:1024px){
+    body{
+        background:-webkit-linear-gradient(rgb(33, 12, 129),rgb(41, 2, 41));
+        background-repeat: no-repeat;
+        
+        
+        
+        
+
+    }
+
+    .inicio{
+        width: 1024px;
+        height: 1370px;
+        
+        
+        background-position:top;
+        background-image: url(/imagen/87.jpg);
+        background-repeat: no-repeat;
+
+        position: absolute;
+        
+    
+    }
+    
+    .navegacion{
+        width: 750px;
+        height: 10px;
+        display:flex;
+        
+        flex-wrap: wrap;
+        
+        justify-content:space-around;
+        margin-left: 100px;
+        text-decoration: none;
+        
+    }.nav ul a{
+        margin-top: 30px;
+        margin-left: 30px;
+
+        
+    }
+    
+    
+    .nav li{
+        font-size: 40px;;
+        list-style: none;
+    
+        margin:0 5px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display: inherit;
+        color: white;
+        font-weight: 900;
+        padding: 0px;
+    
+        text-shadow: -1px 3px 5px #000;
+        text-decoration: none;
+    }
+    
+    .li{
+        text-decoration: none;
+    }
+    
+    .li img{
+        position:absolute;
+        width: 50px;
+        left: 10px;
+        top: 10px;
+    }
+    
+    .nav li:hover{
+        border: solid 1px white;
+        border-radius: 100px;
+    
+        color: tomato;
+    }
+    
+    
+    .lenguas{
+        width: 50px;
+        height: 10px;
+        font-family:serif;
+    
+        /* text-shadow: -10px 10px 5px #000; */
+        
+    }
+    
+    .programador{
+        position:absolute;
+        font-size: 58px;
+        
+        top: 200px;
+        left: 0;
+    
+        font-weight:bold;
+        font-family:serif;
+        
+    
+        background: -webkit-linear-gradient(#ff0000, #5686fd );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+    }
+    
+    .p-programador{
+        width: 500px;
+        font-size: 35px;
+        margin-top: 30px;
+
+        height: auto;
+        
+    }
+    
+    
+    .tecnico{
+        flex-direction: column;
+        font-size: 40px;
+        position: absolute;
+        top: 690px;
+        left: 0;
+        
+    
+        font-weight: bold;
+        animation-name: anime;
+        animation-duration: 2s;
+        animation-delay: 0.5s;
+        
+        font-family: serif;
+        
+        background: -webkit-linear-gradient(#ff0000, #5686fd );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .p-tecnico{
+        width: 500px;
+        font-size: 35px;
+        color: black;
+        margin-top:20pxPX;
+    }
+    
+    .redes{
+        
+        display: flex;
+    
+        flex-direction:row;
+    
+        position:absolute;
+        bottom: 10px;
+        left: 300px;
+    
+    }
+    
+    .redes img{
+        width: 70px;
+        margin:0PX 40PX;
+        
+    }
+}
+
+/* 414 */
+@media screen and (max-width:414px){
+    body{
+        background:-webkit-linear-gradient(rgb(33, 12, 129),rgb(41, 2, 41));
+        background-repeat: no-repeat;
+        width: 414px;  
+        height: 128vh;
+        
+        
+
+    }
+
+    .inicio{
+        width: 414px;
+        height: 300px;
+        
+        
+        background-position:top;
+        background-image: url(/imagen/87.jpg);
+        background-repeat: no-repeat;
+
+        position: absolute;
+        
+    
+    }
+    
+    .navegacion{
+        width: 350px;
+        height: 10px;
+        display:flex;
+        
+        flex-wrap: wrap;
+        
+        justify-content:space-around;
+        margin-left: 30px;
+        text-decoration: none;
+        
+    }.nav{
+        margin-top: 10px;
+
+        
+    }
+    
+    
+    .nav li{
+        font-size: 15px;;
+        list-style: none;
+    
+        margin:0 5px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display: inherit;
+        color: white;
+        font-weight: 900;
+        padding: 0px;
+    
+        text-shadow: -1px 3px 5px #000;
+        text-decoration: none;
+    }
+    
+    .li{
+        text-decoration: none;
+    }
+    
+    .li img{
+        position:absolute;
+        width: 20px;
+        left: 10px;
+        top: 10px;
+    }
+    
+    .nav li:hover{
+        border: solid 1px white;
+        border-radius: 100px;
+    
+        color: tomato;
+    }
+    
+    
+    .lenguas{
+        width: 50px;
+        height: 10px;
+        font-family:serif;
+
+        display:flex;
+        justify-content:space-evenly;
+        
+    }
+    
+    .programador{
+        position: relative;
+        font-size: 28px;    
+        top: 300px;
+        left: 30px;
+    
+        font-weight:bold;
+        font-family:serif;
+        
+    
+        background: -webkit-linear-gradient(#ff0000, #5686fd );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+    }
+    
+    .p-programador{
+
+        font-size: 15px;
+        margin-top: 0px;
+
+        height: auto;
+        width: 200px;
+    }
+    
+    
+    .tecnico{
+        position: relative;
+
+        font-size: 28px;
+        top: 350px;
+        left: 20pxpx;
+        
+    
+        font-weight: bold;
+        animation-name: anime;
+        animation-duration: 2s;
+        animation-delay: 0.5s;
+        
+        font-family: serif;
+        
+        background: -webkit-linear-gradient(#ff0000, #5686fd );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .p-tecnico{
+        width: 200px;
+        font-size: 15px;
+        color: black;
+        margin-top:10PX;
+    }
+    
+    .redes{
+        
+        display: flex;
+    
+        flex-direction:row;
+    
+        position:absolute;
+        top: 850px;
+        left: 110px;
+    
+    }
+    
+    .redes img{
+        width: 40px;
+        margin:0PX 30PX;
+
+        margin-left: 1px;
+        
+    }
+}
+
+/* 375px */
+
+@media screen and (max-width:375px){
+    body{
+        background:-webkit-linear-gradient(rgb(33, 12, 129),rgb(41, 2, 41));
+        background-repeat: no-repeat;
+        width: 360px;  
+        height: 100vh;
+        
+        
+
+    }
+
+    .inicio{
+        width: 375px;
+        height: 240px;
+        
+        
+        background-position:top;
+        background-image: url(/imagen/87.jpg);
+        background-repeat: no-repeat;
+
+        position: absolute;
+        
+    
+    }
+    
+    .navegacion{
+        width: 226px;
+        height: 10px;
+        display:flex;
+        
+        flex-wrap: wrap;
+        
+        justify-content:space-around;
+    
+        text-decoration: none;
+        
+    }.nav{
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    
+    
+    .nav li{
+        font-size: 11px;;
+        list-style: none;
+    
+        margin:0 5px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display: inherit;
+        color: white;
+        font-weight: 900;
+        padding: 0px;
+    
+        text-shadow: -1px 3px 5px #000;
+        text-decoration: none;
+    }
+    
+    .li{
+        text-decoration: none;
+    }
+    
+    .li img{
+        position:absolute;
+        width: 5px;
+        left: 2px;
+        top: 10px;
+    }
+    
+    .nav li:hover{
+        border: solid 1px white;
+        border-radius: 100px;
+    
+        color: tomato;
+    }
+    
+    
+    .lenguas{
+        width: 50px;
+        height: 10px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+        /* text-shadow: -10px 10px 5px #000; */
+        
+    }
+    
+    .programador{
+        
+        font-size: 20px;
+        
+        top: 300px;
+        left: 0;
+    
+        font-weight:bold;
+        font-family: "fredoka one";
+        
+    
+        animation-name: animacion;
+        animation-duration: 2s;
+        animation-delay: 0.1s;
+        
+    
+        background: -webkit-linear-gradient(#ff0000, #5686fd );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+    }
+    
+    .p-programador{
+
+        font-size: 10px;
+        margin-top: 0px;
+
+        height: auto;
+        width: 100px;
+    }
+    
+    
+    .tecnico{
+        flex-direction: column;
+        font-size: 20px;
+        position: absolute;
+        top: 420px;
+        left: 0;
+        
+    
+        font-weight: bold;
+        animation-name: anime;
+        animation-duration: 2s;
+        animation-delay: 0.5s;
+        
+        font-family: "fredoka one";
+        
+        background: -webkit-linear-gradient(#ff0000, #5686fd );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .p-tecnico{
+        font-size: 10px;
+        color: black;
+        margin-top:0PX;
+    }
+    
+    .redes{
+        
+        display: flex;
+    
+        flex-direction:row;
+    
+        position:absolute;
+        top: 620px;
+        left: 130px;
+    
+    }
+    
+    .redes img{
+        width: 30px;
+        margin:0PX 10PX;
+        
+    }
+}
+
+/* adaptable a celular 360px*/
+
+@media screen and (max-width:360px){
+    body{
+        background:-webkit-linear-gradient(rgb(33, 12, 129),rgb(41, 2, 41));
+        background-repeat: no-repeat;
+        width: 360px;  
+        height: 100vh;
+        
+        
+
+    }
+
+    .inicio{
+        width: 360px;
+        height: 240px;
+        
+        
+        background-position:top;
+        background-image: url(/imagen/87.jpg);
+        background-repeat: no-repeat;
+
+        position: absolute;
+        
+    
+    }
+    
+    .navegacion{
+        width: 300px;
+        height: 10px;
+        display:flex;
+        
+        flex-wrap: wrap;
+        
+        justify-content:space-around;
+    
+        text-decoration: none;
+        
+    }.nav ul a{
+        margin-top: 10px;
+        font-size: 10px;
+        margin: 0 5px;
+    }
+    
+    
+    .nav li{
+        font-size: 15px;;
+        list-style: none;
+    
+        
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display: inherit;
+        color: white;
+        font-weight: 900;
+        text-shadow: -1px 3px 5px #000;
+        text-decoration: none;
+    }
+    
+    .li{
+        text-decoration: none;
+    }
+    
+    .li img{
+        position:absolute;
+        width: 5px;
+        left: 2px;
+        top: 10px;
+    }
+    
+    .nav li:hover{
+        border: solid 1px white;
+        border-radius: 100px;
+    
+        color: tomato;
+    }
+    
+    
+    .lenguas{
+        width: 50px;
+        height: 10px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+        /* text-shadow: -10px 10px 5px #000; */
+        
+    }
+    
+    .programador{
+        position: relative;
+        font-size: 25px;
+        
+        top: 250px;
+        left: 50px;
+    
+        font-weight:bold;
+        font-family: "fredoka one";
+        
+    
+        animation-name: animacion;
+        animation-duration: 2s;
+        animation-delay: 0.1s;
+        
+    
+        background: -webkit-linear-gradient(#ff0000, #5686fd );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+    }
+    
+    .p-programador{
+
+        font-size: 15px;
+        margin-top: 0px;
+
+        height: auto;
+        width: 300px;
+    }
+    
+    
+    .tecnico{
+        position: relative;
+        font-size: 25px;
+        top: 300px;
+        left: 50px;
+        
+    
+        font-weight: bold;
+        animation-name: anime;
+        animation-duration: 2s;
+        animation-delay: 0.5s;
+        
+        font-family: "fredoka one";
+        
+        background: -webkit-linear-gradient(#ff0000, #5686fd );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .p-tecnico{
+        width: 300px;
+        font-size: 15px;
+        color: black;
+        margin-top:0PX;
+    }
+    
+    .redes{
+        
+        position: fixed;
+    
+        flex-direction:row;
+        bottom: 10px;
+        left: 100px;
+    
+    }
+    
+    .redes img{
+        width: 20px;
+        margin:0PX 10PX;
+        
+    }
+}
+
+/* 320 */
+@media screen and (max-width:320px){
+    body{
+        background:-webkit-linear-gradient(rgb(33, 12, 129),rgb(41, 2, 41));
+        background-repeat: no-repeat;
+        width: 320px;  
+        height: 114vh;
+        
+        
+
+    }
+
+    .inicio{
+        width: 320px;
+        height: 240px;
+        
+        
+        background-position:top;
+        background-image: url(/imagen/87.jpg);
+        background-repeat: no-repeat;
+
+        position: absolute;
+        
+    
+    }
+    
+    .navegacion{
+        width: 226px;
+        height: 10px;
+        display:flex;
+        
+        flex-wrap: wrap;
+        
+        justify-content:space-around;
+    
+        text-decoration: none;
+        
+    }.nav{
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    
+    
+    .nav li{
+        font-size: 11px;;
+        list-style: none;
+    
+        margin:0 5px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display: inherit;
+        color: white;
+        font-weight: 900;
+        padding: 0px;
+    
+        text-shadow: -1px 3px 5px #000;
+        text-decoration: none;
+    }
+    
+    .li{
+        text-decoration: none;
+    }
+    
+    .li img{
+        position:absolute;
+        width: 5px;
+        left: 2px;
+        top: 10px;
+    }
+    
+    .nav li:hover{
+        border: solid 1px white;
+        border-radius: 100px;
+    
+        color: tomato;
+    }
+    
+    
+    .lenguas{
+        width: 50px;
+        height: 10px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+        /* text-shadow: -10px 10px 5px #000; */
+        
+    }
+    
+    .programador{
+        
+        font-size: 15px;
+        
+        top: 300px;
+        left: 0;
+    
+        font-weight:bold;
+        font-family: "fredoka one";
+        
+    
+        animation-name: animacion;
+        animation-duration: 2s;
+        animation-delay: 0.1s;
+        
+    
+        background: -webkit-linear-gradient(#ff0000, #5686fd );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+    }
+    
+    .p-programador{
+
+        font-size: 10px;
+        margin-top: 0px;
+
+        height: auto;
+        width: 100px;
+    }
+    
+    
+    .tecnico{
+        flex-direction: column;
+        font-size: 15px;
+        position: absolute;
+        top: 420px;
+        left: 0;
+        
+    
+        font-weight: bold;
+        animation-name: anime;
+        animation-duration: 2s;
+        animation-delay: 0.5s;
+        
+        font-family: "fredoka one";
+        
+        background: -webkit-linear-gradient(#ff0000, #5686fd );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .p-tecnico{
+        width: 100px;
+        font-size: 10px;
+        color: black;
+        margin-top:0PX;
+    }
+    
+    .redes{
+        
+        display: flex;
+    
+        flex-direction:row;
+    
+        position:absolute;
+        top: 610px;
+        left: 80px;
+    
+    }
+    
+    .redes img{
+        width: 30px;
+        margin:0PX 10PX;
+        
+    }
+}
+
+/* 280px */
+
+@media screen and (max-width:280px){
+    body{
+        background:-webkit-linear-gradient(rgb(33, 12, 129),rgb(41, 2, 41));
+        background-repeat: no-repeat;
+        width: 280px;  
+        height: 110vh;
+        
+        
+
+    }
+
+    .inicio{
+        width: 280px;
+        height: 240px;
+        
+        
+        background-position:top;
+        background-image: url(/imagen/87.jpg);
+        background-repeat: no-repeat;
+
+        position: absolute;
+        
+    
+    }
+    
+    .navegacion{
+        width: 226px;
+        height: 10px;
+        display:flex;
+        
+        flex-wrap: wrap;
+        
+        justify-content:space-around;
+    
+        text-decoration: none;
+        
+    }.nav{
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    
+    
+    .nav li{
+        font-size: 11px;;
+        list-style: none;
+    
+        margin:0 5px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display: inherit;
+        color: white;
+        font-weight: 900;
+        padding: 0px;
+    
+        text-shadow: -1px 3px 5px #000;
+        text-decoration: none;
+    }
+    
+    .li{
+        text-decoration: none;
+    }
+    
+    .li img{
+        position:absolute;
+        width: 5px;
+        left: 2px;
+        top: 10px;
+    }
+    
+    .nav li:hover{
+        border: solid 1px white;
+        border-radius: 100px;
+    
+        color: tomato;
+    }
+    
+    
+    .lenguas{
+        width: 50px;
+        height: 10px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        /* text-shadow: -10px 10px 5px #000; */
+        
+    }
+    
+    .programador{
+        
+        font-size: 13px;
+        
+        top: 300px;
+        left: 0;
+    
+        font-weight:bold;
+        font-family: "fredoka one";
+        
+    
+        animation-name: animacion;
+        animation-duration: 2s;
+        animation-delay: 0.1s;
+        
+    
+        background: -webkit-linear-gradient(#ff0000, #5686fd );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+    }
+    
+    .p-programador{
+
+        font-size: 10px;
+        margin-top: 0px;
+
+        height: auto;
+        width: 100px;
+    }
+    
+    
+    .tecnico{
+        flex-direction: column;
+        font-size: 13px;
+        position: absolute;
+        top: 420px;
+        left: 0;
+        
+    
+        font-weight: bold;
+        animation-name: anime;
+        animation-duration: 2s;
+        animation-delay: 0.5s;
+        
+        font-family: "fredoka one";
+        
+        background: -webkit-linear-gradient(#ff0000, #5686fd );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .p-tecnico{
+        font-size: 10px;
+        color: black;
+        margin-top:0PX;
+    }
+    
+    .redes{
+        
+        display: flex;
+    
+        flex-direction:row;
+    
+        position:absolute;
+        top: 680px;
+        left: 80px;
+    
+    }
+    
+    .redes img{
+        width: 20px;
+        margin:0PX 10PX;
+        
+    }
+}
+    
+
+
